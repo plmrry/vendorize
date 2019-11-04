@@ -1,7 +1,7 @@
 {
   "name": "vendorize",
   "author": "Paul Murray",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "ISC",
   "main": "index.js",
   "bin": "index.js",
