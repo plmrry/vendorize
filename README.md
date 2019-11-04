@@ -30,7 +30,7 @@ This results in the following directory structure:
     - request.js
 ```
 
-You can also specify a destination directory:
+You can also specify the name of the vendor directory (which defaults to "vendor"):
 
 ```
 npx vendorize request libraries
@@ -42,7 +42,7 @@ This will add the `request` package to a local `libraries` directory.
 
 You can install vendorized packages by running:
 ```
-npm i file:vendor/[package-name]
+npm install file:vendor/[package-name]
 ```
 
 This will **symlink** the package into `node_modules`.
