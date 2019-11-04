@@ -6,7 +6,7 @@ Copy the contents of an NPM package into a local directory.
 
 Vendorizing is the practice of "including dependencies inside your own source tree as if they were part of your application" (via [Jeff Forcier](http://bitprophet.org/blog/2012/06/07/on-vendorizing/)).
 
-## Example
+## Example Usage
 
 To vendorize the `request` library:
 
